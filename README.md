@@ -6,7 +6,7 @@ Five lifting days (Monday–Friday), optional Saturday cardio, and Sunday rest, 
 
 The program uses the same session shape common in TrainHeroic marketplace plans such as Rick Gorrell’s BUILT 5-day PPL + Upper/Lower, Jeremy Lezama’s 5D Hypertrophy/Strength, and Daniel Lemke’s 4-week RIR-wave blocks: a specific warm-up/prep, a primary lift with week-to-week overload, secondary and accessory supersets, and a short finisher or core.
 
-This folder is the source of truth for daily workout notifications and progress tracking. It is ready to commit to GitHub once a repository exists.
+This folder is the source of truth for daily workout notifications and progress tracking. It lives in [jennyrdh/Fitness](https://github.com/jennyrdh/Fitness).
 
 ## Weekly schedule
 
@@ -53,6 +53,7 @@ Friday’s primary (front squat or goblet squat) stays in a slightly higher-rep 
 4. The bot updates:
    - `logs/YYYY-MM-DD.md` — a human-readable daily log (see `logs/README.md`)
    - `progress.json` — working weights, personal records, and a structured `completed_workouts` entry
+   - `history/` — full TrainHeroic history already imported; new sessions stay in daily logs + `progress.json`
 5. Those numbers drive the next session’s suggested loads using the progression rules above.
 6. On Sunday, the weekly review looks at adherence, PRs, energy, and what to change next week. After Week 4, the review sets loads and any exercise swaps for the next mesocycle.
 
@@ -63,9 +64,54 @@ If `start_date` in `progress.json` is still `null`, the preferred start is the n
 | Path | Purpose |
 | --- | --- |
 | `program.md` | Full 4-week program, session by session |
-| `progress.json` | Live state: week, day, working weights, PRs, completed logs |
-| `logs/YYYY-MM-DD.md` | One markdown log per training or review day |
+| `progress.json` | Live state: week, day, working weights, PRs, completed logs, and TrainHeroic baselines |
+| `logs/YYYY-MM-DD.md` | One markdown log per training or review day (recent TrainHeroic sessions from 2026-09-01 are already filled in) |
 | `logs/README.md` | Daily log template and field definitions |
+| `history/trainheroic_history.json` | Full logged TrainHeroic history (2022-01-03 to 2026-11-26) |
+| `history/trainheroic_history.csv` | Same history, one row per set |
+| `history/README.md` | What was imported and how to re-run the importer |
+| `scripts/import_trainheroic.py` | Reusable importer: reads only `training_data.csv` and updates history, logs, and `progress.json` |
+
+
+## TrainHeroic starting weights
+
+Jennifer's official TrainHeroic export was imported on **2026-11-25** (America/Phoenix). **729 logged sessions** (4,120 exercise entries, 10,032 sets) from **2022-01-03 to 2026-11-26** are in `history/`. Only workout history was imported — no profile, contact, chat, readiness, or nutrition data.
+
+The daily 7:00 AM and 4:00 PM routines should read working weights and PRs from `progress.json`. Those values are real logged sets, with the source exercise, date, and set list attached. Nothing was invented for a lift with no history.
+
+Current baselines used for Week 1 (load still has to match the prescribed RPE):
+
+| Program lift | Working weight | Taken from |
+| --- | --- | --- |
+| Back squat | 95 lb × 10 | Back Squat on 2025-05-29 (sparse / not current — re-establish; closest recent variation is Hack Squat 90 lb × 8 on 2026-04-30) |
+| Leg press | 320 lb × 12 | Leg Press (glutes) on 2026-11-19 (the 2026-11-26 log was a lighter 90 lb × 12) |
+| Leg extension | 115 lb × 8 | Leg Extensions on 2026-11-23 |
+| Leg curl | 45 lb × 5 | SL Seated Ham Curl on 2026-11-26 (after 25×8, 40×5) |
+| Standing calf raise | 150 lb × 15 | Standing Calf Raise Machine on 2026-11-23 |
+| Barbell bench press | 65 lb × 5 | Flat BB Press on 2025-04-29 (not current — re-establish; recent horizontal push is Incline DB Press and Chest Press Machine) |
+| Overhead press | 65 lb × 5 | Barbell Overhead Press on 2026-09-18 (recent variation: Shoulder press machine 25 lb × 10 on 2026-11-20) |
+| Incline DB press | 30 lb × 12 (per DB) | Incline DB Press (60 degree) on 2026-11-24 |
+| Lateral raise | 10 lb × 12 | SA behind the back lateral raise on 2026-11-20 |
+| Overhead triceps extension | 30 lb × 12 | OH Tricep Ext (DB) on 2026-10-02 |
+| Triceps pushdown | 31 lb × 9 | Tricep Pushdown on 2026-11-24 |
+| Romanian deadlift | 135 lb × 6 | RDL on 2026-11-23 (after a 115×8) |
+| Hip thrust | 270 lb × 10 | BB Hip Thrust on 2026-11-26 |
+| Reverse lunge / step-up | 65 lb × 12 | FFE Reverse Lunge on 2026-11-23 |
+| Back extension | 170 lb × 10 | 45 Degree hip extension on 2025-08-25 (re-establish if it feels stale) |
+| Chest-supported / barbell row | 70 lb × 12 | Chest supported row machine (elbows flared) on 2026-11-24 |
+| Chin-up / lat pulldown | 85 lb × 10 | Close Grip Pulldown on 2026-11-20 (recent pull-ups: bodyweight × 7 on 2026-09-11) |
+| Single-arm row | 45 lb × 8 | SA DB Row on 2026-01-06 (re-establish) |
+| Straight-arm pulldown / pullover | 27.5 lb × 10 | DB Pullovers on 2026-10-23 |
+| Rear delt fly | 7.5 lb × 15 | Rear Delt Cable Fly on 2026-10-27 |
+| EZ-bar / DB curl | 15 lb × 9 | Incline DB Curls on 2026-11-24 |
+| Front / goblet squat | 45 lb × 12 | Goblet Squat on 2026-08-31 (no front squat history) |
+| Bulgarian split squat | 35 lb × 12 | Bulgarian Split Squat on 2026-09-28 |
+| Single-leg RDL | 35 lb × 8 | Single Leg RDL on 2026-09-03 |
+| Seated calf raise | — | No direct history. Closest: Calf Raise (leg press) 160 lb × 22 on 2026-11-26. Establish in Week 1. |
+
+Notable recent PRs (same lift, last ~18 months unless noted): hip thrust 270×10 (2026-11-26), RDL 165×5 (2026-04-06), incline DB press 35×9 (2026-09-01), barbell overhead press 65×7 (2026-09-11), chest-supported row 140×10 (2026-06-02), leg press 320×12 (2026-11-19; all-time 350×6 in 2022), goblet squat 50×12 (2026-05-28).
+
+The new 5-day program still starts the official mesocycle on **Monday, November 30, 2026**. Until then, imported logs are historical context, not completed days of this mesocycle.
 
 ## Equipment and substitutions
 

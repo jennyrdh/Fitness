@@ -44,195 +44,711 @@
   "working_weights": {
     "back_squat": {
       "name": "Back Squat",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 95,
+      "reps": 10,
       "rpe": null,
       "unit": "lb",
-      "notes": "Establish in Week 1 Monday primary. Note if swapped to goblet, hack, or safety-bar squat."
+      "notes": "Establish in Week 1 Monday primary. Note if swapped to goblet, hack, or safety-bar squat. Imported from TrainHeroic: Back Squat on 2025-05-29 (0x12, 95x10). Last logged 2025-05-29 — treat as a starting reference, not a current max. Re-establish in Week 1.",
+      "source_exercise": "Back Squat",
+      "source_date": "2025-05-29",
+      "source_workout": "Lower 2: Green legs & ham 🥚",
+      "source_sets": "0x12, 95x10",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-05-29",
+        "workout": "Lower 2: Green legs & ham 🥚",
+        "exercise": "Back Squat",
+        "weight_lb": 95,
+        "reps": 10,
+        "scheme": "0x12, 95x10",
+        "e1rm_lb": 126.7
+      },
+      "related_lifts": [
+        {
+          "exercise": "Hack Squat",
+          "date": "2026-04-30",
+          "weight_lb": 90,
+          "reps": 8,
+          "sets": "0x9, 45x8, 90x8"
+        }
+      ]
     },
     "leg_press": {
       "name": "Leg Press",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 320,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Monday accessory. Machine load as written on the stack or sled."
+      "notes": "Monday accessory. Machine load as written on the stack or sled. Imported from TrainHeroic: Leg Press (glutes) on 2026-11-19 (180x15, 320x10, 320x12). Used this session instead of the lighter 2026-11-26 log (90x12, 90x12).",
+      "source_exercise": "Leg Press (glutes)",
+      "source_date": "2026-11-19",
+      "source_workout": "Lower 2: Hot off the leg press 📰",
+      "source_sets": "180x15, 320x10, 320x12",
+      "selection": "skipped_light_recent",
+      "more_recent_lighter_session": {
+        "date": "2026-11-26",
+        "sets": "90x12, 90x12",
+        "exercise": "Leg Press (glutes)"
+      },
+      "best_set": {
+        "date": "2026-11-19",
+        "workout": "Lower 2: Hot off the leg press 📰",
+        "exercise": "Leg Press (glutes)",
+        "weight_lb": 320,
+        "reps": 12,
+        "scheme": "180x15, 320x10, 320x12",
+        "e1rm_lb": 448.0
+      },
+      "all_time_best": {
+        "date": "2022-04-04",
+        "workout": "Butt stuff (and hams)",
+        "exercise": "Leg Press (glutes)",
+        "weight_lb": 350,
+        "reps": 6,
+        "scheme": "315x10, 325x8, 340x8, 350x6, 350x6",
+        "e1rm_lb": 420.0
+      },
+      "related_lifts": [
+        {
+          "exercise": "SL Leg Press (Glutes)",
+          "date": "2026-02-16",
+          "weight_lb": 45,
+          "reps": 12,
+          "sets": "45x10, 45x12"
+        }
+      ]
     },
     "leg_extension": {
       "name": "Leg Extension",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 115,
+      "reps": 8,
       "rpe": null,
       "unit": "lb",
-      "notes": "Monday accessory."
+      "notes": "Monday accessory. Imported from TrainHeroic: Leg Extensions on 2026-11-23 (115x8, 115x8).",
+      "source_exercise": "Leg Extensions",
+      "source_date": "2026-11-23",
+      "source_workout": "Lower 1: No free lunge 💵",
+      "source_sets": "115x8, 115x8",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-09-22",
+        "workout": "Lower 1: Times New Roman(ian) ✏️",
+        "exercise": "Leg Extensions",
+        "weight_lb": 170,
+        "reps": 9,
+        "scheme": "120x15, 150x14, 170x9",
+        "e1rm_lb": 221.0
+      }
     },
     "leg_curl": {
       "name": "Seated or Lying Leg Curl",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 45,
+      "reps": 5,
       "rpe": null,
       "unit": "lb",
-      "notes": "Used Monday (lighter) and Wednesday (main hamstring accessory). Note seated vs lying."
+      "notes": "Used Monday (lighter) and Wednesday (main hamstring accessory). Note seated vs lying. Imported from TrainHeroic: SL Seated Ham Curl on 2026-11-26 (25x8, 40x5, 45x5).",
+      "source_exercise": "SL Seated Ham Curl",
+      "source_date": "2026-11-26",
+      "source_workout": "Lower 2: Hot off the leg press 📰",
+      "source_sets": "25x8, 40x5, 45x5",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-11-26",
+        "workout": "Lower 2: Hot off the leg press 📰",
+        "exercise": "SL Seated Ham Curl",
+        "weight_lb": 45,
+        "reps": 5,
+        "scheme": "25x8, 40x5, 45x5",
+        "e1rm_lb": 52.5
+      },
+      "all_time_best": {
+        "date": "2025-05-01",
+        "workout": "Lower 2: Green legs & ham 🥚",
+        "exercise": "SL Seated Ham Curl",
+        "weight_lb": 80,
+        "reps": 7,
+        "scheme": "45x15, 80x7",
+        "e1rm_lb": 98.7
+      },
+      "related_lifts": [
+        {
+          "exercise": "Seated Hamstring Curls",
+          "date": "2026-10-22",
+          "weight_lb": 70,
+          "reps": 9,
+          "sets": "55x12, 70x9"
+        },
+        {
+          "exercise": "Lying Hamstring Curl",
+          "date": "2026-09-17",
+          "weight_lb": 40,
+          "reps": 12,
+          "sets": "40x12, 40x5"
+        }
+      ]
     },
     "standing_calf_raise": {
       "name": "Standing Calf Raise",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 150,
+      "reps": 15,
       "rpe": null,
       "unit": "lb",
-      "notes": "Monday finisher."
+      "notes": "Monday finisher. Imported from TrainHeroic: Standing Calf Raise Machine on 2026-11-23 (150x15, 0x25).",
+      "source_exercise": "Standing Calf Raise Machine",
+      "source_date": "2026-11-23",
+      "source_workout": "Lower 1: No free lunge 💵",
+      "source_sets": "150x15, 0x25",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-11-16",
+        "workout": "Lower 1: No free lunge 💵",
+        "exercise": "Standing Calf Raise Machine",
+        "weight_lb": 180,
+        "reps": 21,
+        "scheme": "180x21",
+        "e1rm_lb": 306.0
+      },
+      "related_lifts": [
+        {
+          "exercise": "Calf Raise (leg press)",
+          "date": "2026-11-26",
+          "weight_lb": 160,
+          "reps": 22,
+          "sets": "45x20, 140x20, 160x22"
+        }
+      ]
     },
     "barbell_bench_press": {
       "name": "Barbell Bench Press",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 65,
+      "reps": 5,
       "rpe": null,
       "unit": "lb",
-      "notes": "Establish in Week 1 Tuesday primary."
+      "notes": "Establish in Week 1 Tuesday primary. Imported from TrainHeroic: Flat BB Press on 2025-04-29 (65x5, 65x5). Last logged 2025-04-29 — treat as a starting reference, not a current max. Re-establish in Week 1.",
+      "source_exercise": "Flat BB Press",
+      "source_date": "2025-04-29",
+      "source_workout": "Upper 1: Benchmark Twain 📚",
+      "source_sets": "65x5, 65x5",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-04-22",
+        "workout": "Upper 1: Benchmark Twain 📚",
+        "exercise": "Flat BB Press",
+        "weight_lb": 65,
+        "reps": 9,
+        "scheme": "45x10, 65x9, 65x6",
+        "e1rm_lb": 84.5
+      },
+      "related_lifts": [
+        {
+          "exercise": "Chest Press Machine",
+          "date": "2026-10-30",
+          "weight_lb": 30,
+          "reps": 10,
+          "sets": "30x10, 30x8"
+        },
+        {
+          "exercise": "Flat DB Press",
+          "date": "2026-01-06",
+          "weight_lb": null,
+          "reps": 6,
+          "sets": "x6, x6"
+        }
+      ]
     },
     "overhead_press": {
       "name": "Dumbbell or Barbell Overhead Press",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 65,
+      "reps": 5,
       "rpe": null,
       "unit": "lb",
-      "notes": "Tuesday secondary. Note DB vs barbell, and if DB, load per hand."
+      "notes": "Tuesday secondary. Note DB vs barbell, and if DB, load per hand. Imported from TrainHeroic: Barbell Overhead Press on 2026-09-18 (65x5, 65x4).",
+      "source_exercise": "Barbell Overhead Press",
+      "source_date": "2026-09-18",
+      "source_workout": "Upper 2: Sup Dog 👋🏽",
+      "source_sets": "65x5, 65x4",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-09-11",
+        "workout": "Upper 2: Sup Dog 👋🏽",
+        "exercise": "Barbell Overhead Press",
+        "weight_lb": 65,
+        "reps": 7,
+        "scheme": "65x7, 65x4",
+        "e1rm_lb": 80.2
+      },
+      "related_lifts": [
+        {
+          "exercise": "Shoulder press machine",
+          "date": "2026-11-20",
+          "weight_lb": 25,
+          "reps": 10,
+          "sets": "25x8, 25x10"
+        }
+      ]
     },
     "incline_db_bench": {
       "name": "Incline Dumbbell or Machine Press",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 30,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Tuesday accessory. Load per dumbbell if applicable."
+      "notes": "Tuesday accessory. Load per dumbbell if applicable. Imported from TrainHeroic: Incline DB Press (60 degree) on 2026-11-24 (30x10, 30x12).",
+      "source_exercise": "Incline DB Press (60 degree)",
+      "source_date": "2026-11-24",
+      "source_workout": "Upper 1: Delta force 🪖",
+      "source_sets": "30x10, 30x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-09-01",
+        "workout": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+        "exercise": "Incline DB Press (60 degree)",
+        "weight_lb": 35,
+        "reps": 9,
+        "scheme": "35x9, 35x7",
+        "e1rm_lb": 45.5
+      },
+      "related_lifts": [
+        {
+          "exercise": "Incline smith machine press",
+          "date": "2026-04-03",
+          "weight_lb": 35,
+          "reps": 4,
+          "sets": "30x12, 35x3, 35x4"
+        }
+      ]
     },
     "lateral_raise": {
       "name": "Dumbbell Lateral Raise",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 10,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Tuesday accessory. Load per dumbbell."
+      "notes": "Tuesday accessory. Load per dumbbell. Imported from TrainHeroic: SA behind the back lateral raise on 2026-11-20 (10x10, 10x12).",
+      "source_exercise": "SA behind the back lateral raise",
+      "source_date": "2026-11-20",
+      "source_workout": "Upper 2: 🔨 Hammer time",
+      "source_sets": "10x10, 10x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-08-18",
+        "workout": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+        "exercise": "SA behind the back lateral raise",
+        "weight_lb": 22.5,
+        "reps": 8,
+        "scheme": "22.5x8, 22.5x8",
+        "e1rm_lb": 28.5
+      },
+      "related_lifts": [
+        {
+          "exercise": "SA Cable Y Raise",
+          "date": "2026-11-24",
+          "weight_lb": 10,
+          "reps": 12,
+          "sets": "10x12, 9x10"
+        }
+      ]
     },
     "overhead_triceps_extension": {
       "name": "Overhead Triceps Extension or Skull Crusher",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 30,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Tuesday accessory."
+      "notes": "Tuesday accessory. Imported from TrainHeroic: OH Tricep Ext (DB) on 2026-10-02 (30x10, 30x12). Used this session instead of the lighter 2026-10-16 log (12.5x12, 12.5x12).",
+      "source_exercise": "OH Tricep Ext (DB)",
+      "source_date": "2026-10-02",
+      "source_workout": "Upper 2: Pull over🚨",
+      "source_sets": "30x10, 30x12",
+      "selection": "skipped_light_recent",
+      "more_recent_lighter_session": {
+        "date": "2026-10-16",
+        "sets": "12.5x12, 12.5x12",
+        "exercise": "OH Tricep Ext (DB)"
+      },
+      "best_set": {
+        "date": "2026-06-26",
+        "workout": "Upper 2: Raise hell 👹",
+        "exercise": "OH Tricep Ext (DB)",
+        "weight_lb": 42.5,
+        "reps": 8,
+        "scheme": "30x15, 42.5x8",
+        "e1rm_lb": 53.8
+      }
     },
     "triceps_pushdown": {
       "name": "Triceps Pushdown",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 31,
+      "reps": 9,
       "rpe": null,
       "unit": "lb",
-      "notes": "Tuesday finisher."
+      "notes": "Tuesday finisher. Imported from TrainHeroic: Tricep Pushdown on 2026-11-24 (27.5x15, 31x9).",
+      "source_exercise": "Tricep Pushdown",
+      "source_date": "2026-11-24",
+      "source_workout": "Upper 1: Delta force 🪖",
+      "source_sets": "27.5x15, 31x9",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-12-09",
+        "workout": "Upper 1:  Crotch and learn 👖",
+        "exercise": "Tricep Pushdown",
+        "weight_lb": 42.5,
+        "reps": 8,
+        "scheme": "42.5x8, 35x7, 30x8",
+        "e1rm_lb": 53.8
+      }
     },
     "romanian_deadlift": {
       "name": "Romanian Deadlift",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 135,
+      "reps": 6,
       "rpe": null,
       "unit": "lb",
-      "notes": "Establish in Week 1 Wednesday primary. Note if swapped to trap-bar RDL or deadlift."
+      "notes": "Establish in Week 1 Wednesday primary. Note if swapped to trap-bar RDL or deadlift. Imported from TrainHeroic: RDL (Romanian Deadlift) on 2026-11-23 (115x8, 135x6, 35x30).",
+      "source_exercise": "RDL (Romanian Deadlift)",
+      "source_date": "2026-11-23",
+      "source_workout": "Lower 1: No free lunge 💵",
+      "source_sets": "115x8, 135x6, 35x30",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-04-06",
+        "workout": "Lower 1: Lungebob Squarepants 🧽",
+        "exercise": "RDL (Romanian Deadlift)",
+        "weight_lb": 165,
+        "reps": 5,
+        "scheme": "95x10, 145x8, 165x5",
+        "e1rm_lb": 192.5
+      }
     },
     "hip_thrust": {
       "name": "Barbell or Machine Hip Thrust",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 270,
+      "reps": 10,
       "rpe": null,
       "unit": "lb",
-      "notes": "Wednesday secondary."
+      "notes": "Wednesday secondary. Imported from TrainHeroic: BB Hip Thrust on 2026-11-26 (180x30, 180x30, 270x10).",
+      "source_exercise": "BB Hip Thrust",
+      "source_date": "2026-11-26",
+      "source_workout": "Lower 2: Hot off the leg press 📰",
+      "source_sets": "180x30, 180x30, 270x10",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-11-26",
+        "workout": "Lower 2: Hot off the leg press 📰",
+        "exercise": "BB Hip Thrust",
+        "weight_lb": 270,
+        "reps": 10,
+        "scheme": "180x30, 180x30, 270x10",
+        "e1rm_lb": 360.0
+      },
+      "related_lifts": [
+        {
+          "exercise": "BB Glute Bridge",
+          "date": "2026-10-29",
+          "weight_lb": 180,
+          "reps": 30,
+          "sets": "180x30, 180x30"
+        }
+      ]
     },
     "step_up_or_reverse_lunge": {
       "name": "Step-Up or Reverse Lunge",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 65,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Wednesday accessory. Load per side, and which variation."
+      "notes": "Wednesday accessory. Load per side, and which variation. Imported from TrainHeroic: FFE Reverse Lunge on 2026-11-23 (45x12, 65x12).",
+      "source_exercise": "FFE Reverse Lunge",
+      "source_date": "2026-11-23",
+      "source_workout": "Lower 1: No free lunge 💵",
+      "source_sets": "45x12, 65x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-03-16",
+        "workout": "Lower 1: Lungebob Squarepants 🧽",
+        "exercise": "FFE Reverse Lunge",
+        "weight_lb": 85,
+        "reps": 6,
+        "scheme": "45x12, 65x10, 85x6",
+        "e1rm_lb": 102.0
+      }
     },
     "back_extension": {
       "name": "45-Degree Back Extension",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 170,
+      "reps": 10,
       "rpe": null,
       "unit": "lb",
-      "notes": "Wednesday accessory and Friday hinge-balance option. Bodyweight or added load."
+      "notes": "Wednesday accessory and Friday hinge-balance option. Bodyweight or added load. Imported from TrainHeroic: 45 Degree hip extension on 2025-08-25 (140x10, 170x10, 170x10). Last logged 2025-08-25 — treat as a starting reference, not a current max. Re-establish in Week 1.",
+      "source_exercise": "45 Degree hip extension",
+      "source_date": "2025-08-25",
+      "source_workout": "Lower 1: Freudian Hip 💭",
+      "source_sets": "140x10, 170x10, 170x10",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-08-18",
+        "workout": "Lower 1: Freudian Hip 💭",
+        "exercise": "45 Degree hip extension",
+        "weight_lb": 185,
+        "reps": 12,
+        "scheme": "140x12, 170x12, 185x12",
+        "e1rm_lb": 259.0
+      }
     },
     "barbell_or_chest_supported_row": {
       "name": "Barbell or Chest-Supported T-Bar Row",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 70,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Establish in Week 1 Thursday primary. Note which variation."
+      "notes": "Establish in Week 1 Thursday primary. Note which variation. Imported from TrainHeroic: Chest supported row machine (Elbows flared) on 2026-11-24 (70x12, 70x12).",
+      "source_exercise": "Chest supported row machine (Elbows flared)",
+      "source_date": "2026-11-24",
+      "source_workout": "Upper 1: Delta force 🪖",
+      "source_sets": "70x12, 70x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-06-02",
+        "workout": "Upper 1:  Adele - EZ on me 🎤",
+        "exercise": "Chest supported row machine (Elbows flared)",
+        "weight_lb": 140,
+        "reps": 10,
+        "scheme": "90x12, 140x10, 140x10",
+        "e1rm_lb": 186.7
+      },
+      "related_lifts": [
+        {
+          "exercise": "Chest Supported DB Row (Elbows flared)",
+          "date": "2025-08-22",
+          "weight_lb": 20,
+          "reps": 8,
+          "sets": "20x8, 20x8, 20x8"
+        }
+      ]
     },
     "chinup_or_lat_pulldown": {
       "name": "Weighted Chin-Up, Pull-Up, or Lat Pulldown",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 85,
+      "reps": 10,
       "rpe": null,
       "unit": "lb",
-      "notes": "Thursday secondary. Use BW, BW plus added load, or pulldown stack. Note which variation."
+      "notes": "Thursday secondary. Use BW, BW plus added load, or pulldown stack. Note which variation. Imported from TrainHeroic: Close Grip Pulldown on 2026-11-20 (78x10, 85x10).",
+      "source_exercise": "Close Grip Pulldown",
+      "source_date": "2026-11-20",
+      "source_workout": "Upper 2: 🔨 Hammer time",
+      "source_sets": "78x10, 85x10",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-10-23",
+        "workout": "Upper 2: Pull over🚨",
+        "exercise": "Close Grip Pulldown",
+        "weight_lb": 85,
+        "reps": 10,
+        "scheme": "85x8, 85x10, 85x10",
+        "e1rm_lb": 113.3
+      },
+      "all_time_best": {
+        "date": "2024-01-09",
+        "workout": "Pull monty",
+        "exercise": "Close Grip Pulldown",
+        "weight_lb": 130,
+        "reps": 7,
+        "scheme": "90x10, 110x12, 130x7",
+        "e1rm_lb": 160.3
+      },
+      "related_lifts": [
+        {
+          "exercise": "Assisted Pull-ups",
+          "date": "2026-08-18",
+          "weight_lb": 0,
+          "reps": 8,
+          "sets": "0x8, 0x6"
+        },
+        {
+          "exercise": "Pull-Up",
+          "date": "2026-09-11",
+          "weight_lb": 0,
+          "reps": 7,
+          "sets": "0x7"
+        },
+        {
+          "exercise": "Pull-up",
+          "date": "2025-06-27",
+          "weight_lb": null,
+          "reps": 6,
+          "sets": "x6, x5, x5"
+        }
+      ]
     },
     "single_arm_row": {
       "name": "Single-Arm Dumbbell or Cable Row",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 45,
+      "reps": 8,
       "rpe": null,
       "unit": "lb",
-      "notes": "Thursday accessory. Load per side."
+      "notes": "Thursday accessory. Load per side. Imported from TrainHeroic: SA DB Row on 2026-01-06 (45x8, 45x8). Last logged 2026-01-06 — treat as a starting reference, not a current max. Re-establish in Week 1.",
+      "source_exercise": "SA DB Row",
+      "source_date": "2026-01-06",
+      "source_workout": "Upper 1:  Crotch and learn 👖",
+      "source_sets": "45x8, 45x8",
+      "selection": "latest",
+      "best_set": {
+        "date": "2025-12-23",
+        "workout": "Upper 1:  Crotch and learn 👖",
+        "exercise": "SA DB Row",
+        "weight_lb": 45,
+        "reps": 8,
+        "scheme": "40x12, 45x8",
+        "e1rm_lb": 57.0
+      }
     },
     "straight_arm_lat_pulldown": {
       "name": "Straight-Arm Lat Pulldown or Dumbbell Pullover",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 27.5,
+      "reps": 10,
       "rpe": null,
       "unit": "lb",
-      "notes": "Thursday accessory."
+      "notes": "Thursday accessory. Imported from TrainHeroic: DB Pullovers on 2026-10-23 (27.5x9, 27.5x10, 275x10?).",
+      "source_exercise": "DB Pullovers",
+      "source_date": "2026-10-23",
+      "source_workout": "Upper 2: Pull over🚨",
+      "source_sets": "27.5x9, 27.5x10, 275x10?",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-04-10",
+        "workout": "Upper 2: Ghostclusters 👻",
+        "exercise": "DB Pullovers",
+        "weight_lb": 27.5,
+        "reps": 12,
+        "scheme": "25x10, 27.5x12",
+        "e1rm_lb": 38.5
+      }
     },
     "rear_delt_fly": {
       "name": "Face Pull or Chest-Supported Rear Delt Fly",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 7.5,
+      "reps": 15,
       "rpe": null,
       "unit": "lb",
-      "notes": "Thursday accessory."
+      "notes": "Thursday accessory. Imported from TrainHeroic: Rear Delt Cable Fly (+SA Version) on 2026-10-27 (7.5x12, 7.5x15).",
+      "source_exercise": "Rear Delt Cable Fly (+SA Version)",
+      "source_date": "2026-10-27",
+      "source_workout": "Upper 1: Delta force 🪖",
+      "source_sets": "7.5x12, 7.5x15",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-10-13",
+        "workout": "Upper 1: Delta force 🪖",
+        "exercise": "Rear Delt Cable Fly (+SA Version)",
+        "weight_lb": 40,
+        "reps": 12,
+        "scheme": "40x12, 40x7, 40x12",
+        "e1rm_lb": 56.0
+      }
     },
     "ez_bar_or_db_curl": {
       "name": "EZ-Bar, Dumbbell, or Hammer Curl",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 15,
+      "reps": 9,
       "rpe": null,
       "unit": "lb",
-      "notes": "Thursday accessory."
+      "notes": "Thursday accessory. Imported from TrainHeroic: Incline DB Curls on 2026-11-24 (12.5x13, 15x9, 15x8).",
+      "source_exercise": "Incline DB Curls",
+      "source_date": "2026-11-24",
+      "source_workout": "Upper 1: Delta force 🪖",
+      "source_sets": "12.5x13, 15x9, 15x8",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-11-10",
+        "workout": "Upper 1: Delta force 🪖",
+        "exercise": "Incline DB Curls",
+        "weight_lb": 24,
+        "reps": 15,
+        "scheme": "10x5, 24x15",
+        "e1rm_lb": 36.0
+      },
+      "related_lifts": [
+        {
+          "exercise": "Cable curls",
+          "date": "2026-10-20",
+          "weight_lb": 33,
+          "reps": 8,
+          "sets": "33x8, 33x8"
+        },
+        {
+          "exercise": "Lazy Man Cable Curl",
+          "date": "2026-07-21",
+          "weight_lb": 30,
+          "reps": 13,
+          "sets": "30x13, 30x9, 30x10"
+        }
+      ]
     },
     "front_squat": {
       "name": "Front Squat or Goblet Squat",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 45,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Establish in Week 1 Friday primary. Note front squat vs goblet or safety-bar swap."
+      "notes": "Establish in Week 1 Friday primary. Note front squat vs goblet or safety-bar swap. Imported from TrainHeroic: Goblet Squat on 2026-08-31 (30x15, 45x12, 30x12).",
+      "source_exercise": "Goblet Squat",
+      "source_date": "2026-08-31",
+      "source_workout": "Lower 1: Bread n' Butter 🍞🧈",
+      "source_sets": "30x15, 45x12, 30x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-05-28",
+        "workout": "Lower 2: Cluster f*ck 🤬",
+        "exercise": "Goblet Squat",
+        "weight_lb": 50,
+        "reps": 12,
+        "scheme": "50x12, 50x12",
+        "e1rm_lb": 70.0
+      }
     },
     "bulgarian_split_squat": {
       "name": "Bulgarian Split Squat",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 35,
+      "reps": 12,
       "rpe": null,
       "unit": "lb",
-      "notes": "Friday secondary. Load per hand or total, and which hold."
+      "notes": "Friday secondary. Load per hand or total, and which hold. Imported from TrainHeroic: Bulgarian Split Squat on 2026-09-28 (0x10, 35x12).",
+      "source_exercise": "Bulgarian Split Squat",
+      "source_date": "2026-09-28",
+      "source_workout": "Lower 1: No free lunge 💵",
+      "source_sets": "0x10, 35x12",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-04-20",
+        "workout": "Lower 1: Lungebob Squarepants 🧽",
+        "exercise": "Bulgarian Split Squat",
+        "weight_lb": 65,
+        "reps": 5,
+        "scheme": "45x12, 65x5, 25x8",
+        "e1rm_lb": 75.8
+      }
     },
     "single_leg_rdl": {
       "name": "Single-Leg RDL or Cable Pull-Through",
-      "weight_lb": null,
-      "reps": null,
+      "weight_lb": 35,
+      "reps": 8,
       "rpe": null,
       "unit": "lb",
-      "notes": "Friday hinge-balance accessory. Load per side if unilateral."
+      "notes": "Friday hinge-balance accessory. Load per side if unilateral. Imported from TrainHeroic: Single Leg RDL on 2026-09-03 (30x8, 35x8).",
+      "source_exercise": "Single Leg RDL",
+      "source_date": "2026-09-03",
+      "source_workout": "Lower 2: A Bridge Too Far 🌉",
+      "source_sets": "30x8, 35x8",
+      "selection": "latest",
+      "best_set": {
+        "date": "2026-09-03",
+        "workout": "Lower 2: A Bridge Too Far 🌉",
+        "exercise": "Single Leg RDL",
+        "weight_lb": 35,
+        "reps": 8,
+        "scheme": "30x8, 35x8",
+        "e1rm_lb": 44.3
+      }
     },
     "seated_calf_raise": {
       "name": "Seated Calf Raise",
@@ -240,12 +756,5217 @@
       "reps": null,
       "rpe": null,
       "unit": "lb",
-      "notes": "Friday accessory."
+      "notes": "Friday accessory. No direct history for this exact lift. Closest recent TrainHeroic variation: Calf Raise (leg press) on 2026-11-26 (45x20, 140x20, 160x22). Do not convert this into a working weight — establish in Week 1.",
+      "related_lifts": [
+        {
+          "exercise": "Calf Raise (leg press)",
+          "date": "2026-11-26",
+          "weight_lb": 160,
+          "reps": 22,
+          "sets": "45x20, 140x20, 160x22"
+        }
+      ]
     }
   },
-  "personal_records": [],
-  "completed_workouts": [],
+  "personal_records": [
+    {
+      "program_key": "leg_press",
+      "exercise": "Leg Press (glutes)",
+      "weight_lb": 350,
+      "reps": 6,
+      "date": "2022-04-04",
+      "workout": "Butt stuff (and hams)",
+      "e1rm_lb": 420.0,
+      "source_sets": "315x10, 325x8, 340x8, 350x6, 350x6",
+      "source": "trainheroic_import",
+      "role": "all_time"
+    },
+    {
+      "program_key": "chinup_or_lat_pulldown",
+      "exercise": "Close Grip Pulldown",
+      "weight_lb": 130,
+      "reps": 7,
+      "date": "2024-01-09",
+      "workout": "Pull monty",
+      "e1rm_lb": 160.3,
+      "source_sets": "90x10, 110x12, 130x7",
+      "source": "trainheroic_import",
+      "role": "all_time"
+    },
+    {
+      "program_key": "barbell_bench_press",
+      "exercise": "Flat BB Press",
+      "weight_lb": 65,
+      "reps": 9,
+      "date": "2025-04-22",
+      "workout": "Upper 1: Benchmark Twain 📚",
+      "e1rm_lb": 84.5,
+      "source_sets": "45x10, 65x9, 65x6",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "leg_curl",
+      "exercise": "SL Seated Ham Curl",
+      "weight_lb": 80,
+      "reps": 7,
+      "date": "2025-05-01",
+      "workout": "Lower 2: Green legs & ham 🥚",
+      "e1rm_lb": 98.7,
+      "source_sets": "45x15, 80x7",
+      "source": "trainheroic_import",
+      "role": "all_time"
+    },
+    {
+      "program_key": "back_squat",
+      "exercise": "Back Squat",
+      "weight_lb": 95,
+      "reps": 10,
+      "date": "2025-05-29",
+      "workout": "Lower 2: Green legs & ham 🥚",
+      "e1rm_lb": 126.7,
+      "source_sets": "0x12, 95x10",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "chinup_or_lat_pulldown",
+      "exercise": "Assisted Pull-ups",
+      "weight_lb": 0,
+      "reps": 8,
+      "date": "2025-05-30",
+      "workout": "Upper 2: Rowmeo and Juliet ❤️",
+      "e1rm_lb": null,
+      "source_sets": "0x8, 0x7, 0x7",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "leg_press",
+      "exercise": "SL Leg Press (Glutes)",
+      "weight_lb": 135,
+      "reps": 5,
+      "date": "2025-07-21",
+      "workout": "Lower 1: Freudian Hip 💭",
+      "e1rm_lb": 157.5,
+      "source_sets": "90x10, 135x5, 90x6",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "leg_curl",
+      "exercise": "Seated Hamstring Curls",
+      "weight_lb": 200,
+      "reps": 14,
+      "date": "2025-07-31",
+      "workout": "Lower 2: Lungebob Squarepants 🧽",
+      "e1rm_lb": 293.3,
+      "source_sets": "180x12, 200x14",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "back_extension",
+      "exercise": "45 Degree hip extension",
+      "weight_lb": 185,
+      "reps": 12,
+      "date": "2025-08-18",
+      "workout": "Lower 1: Freudian Hip 💭",
+      "e1rm_lb": 259.0,
+      "source_sets": "140x12, 170x12, 185x12",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "barbell_or_chest_supported_row",
+      "exercise": "Chest Supported DB Row (Elbows flared)",
+      "weight_lb": 20,
+      "reps": 8,
+      "date": "2025-08-22",
+      "workout": "Upper 2: Band Theft Auto 🚗",
+      "e1rm_lb": 25.3,
+      "source_sets": "20x8, 20x8, 20x8",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "chinup_or_lat_pulldown",
+      "exercise": "Pull-Up",
+      "weight_lb": 0,
+      "reps": 10,
+      "date": "2025-09-16",
+      "workout": "Upper 1:  Key Lime Y 🍰",
+      "e1rm_lb": null,
+      "source_sets": "0x10, 0x7, 0x6",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "leg_extension",
+      "exercise": "Leg Extensions",
+      "weight_lb": 170,
+      "reps": 9,
+      "date": "2025-09-22",
+      "workout": "Lower 1: Times New Roman(ian) ✏️",
+      "e1rm_lb": 221.0,
+      "source_sets": "120x15, 150x14, 170x9",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "back_squat",
+      "exercise": "Hack Squat",
+      "weight_lb": 105,
+      "reps": 8,
+      "date": "2025-10-09",
+      "workout": "Lower 2: Lungebob Squarepants 🧽",
+      "e1rm_lb": 133.0,
+      "source_sets": "105x8, 105x8",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "hip_thrust",
+      "exercise": "BB Glute Bridge",
+      "weight_lb": 290,
+      "reps": 10,
+      "date": "2025-11-17",
+      "workout": "Lower 1: Times New Roman(ian) ✏️",
+      "e1rm_lb": 386.7,
+      "source_sets": "225x12, 270x12, 290x10",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "triceps_pushdown",
+      "exercise": "Tricep Pushdown",
+      "weight_lb": 42.5,
+      "reps": 8,
+      "date": "2025-12-09",
+      "workout": "Upper 1:  Crotch and learn 👖",
+      "e1rm_lb": 53.8,
+      "source_sets": "42.5x8, 35x7, 30x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "single_arm_row",
+      "exercise": "SA DB Row",
+      "weight_lb": 45,
+      "reps": 8,
+      "date": "2025-12-23",
+      "workout": "Upper 1:  Crotch and learn 👖",
+      "e1rm_lb": 57.0,
+      "source_sets": "40x12, 45x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "lateral_raise",
+      "exercise": "SA Cable Y Raise",
+      "weight_lb": 12.5,
+      "reps": 10,
+      "date": "2026-01-30",
+      "workout": "Upper 2: Mr + Mrs (incline) Smith🔫👫",
+      "e1rm_lb": 16.7,
+      "source_sets": "12.5x10, 12.5x10",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "step_up_or_reverse_lunge",
+      "exercise": "FFE Reverse Lunge",
+      "weight_lb": 85,
+      "reps": 6,
+      "date": "2026-03-16",
+      "workout": "Lower 1: Lungebob Squarepants 🧽",
+      "e1rm_lb": 102.0,
+      "source_sets": "45x12, 65x10, 85x6",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "incline_db_bench",
+      "exercise": "Incline smith machine press",
+      "weight_lb": 35,
+      "reps": 5,
+      "date": "2026-03-27",
+      "workout": "Upper 2: It's All In The Dips ⛳️",
+      "e1rm_lb": 40.8,
+      "source_sets": "30x10, 35x5, 35x3",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "romanian_deadlift",
+      "exercise": "RDL (Romanian Deadlift)",
+      "weight_lb": 165,
+      "reps": 5,
+      "date": "2026-04-06",
+      "workout": "Lower 1: Lungebob Squarepants 🧽",
+      "e1rm_lb": 192.5,
+      "source_sets": "95x10, 145x8, 165x5",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "straight_arm_lat_pulldown",
+      "exercise": "DB Pullovers",
+      "weight_lb": 27.5,
+      "reps": 12,
+      "date": "2026-04-10",
+      "workout": "Upper 2: Ghostclusters 👻",
+      "e1rm_lb": 38.5,
+      "source_sets": "25x10, 27.5x12",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "bulgarian_split_squat",
+      "exercise": "Bulgarian Split Squat",
+      "weight_lb": 65,
+      "reps": 5,
+      "date": "2026-04-20",
+      "workout": "Lower 1: Lungebob Squarepants 🧽",
+      "e1rm_lb": 75.8,
+      "source_sets": "45x12, 65x5, 25x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "front_squat",
+      "exercise": "Goblet Squat",
+      "weight_lb": 50,
+      "reps": 12,
+      "date": "2026-05-28",
+      "workout": "Lower 2: Cluster f*ck 🤬",
+      "e1rm_lb": 70.0,
+      "source_sets": "50x12, 50x12",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "barbell_or_chest_supported_row",
+      "exercise": "Chest supported row machine (Elbows flared)",
+      "weight_lb": 140,
+      "reps": 10,
+      "date": "2026-06-02",
+      "workout": "Upper 1:  Adele - EZ on me 🎤",
+      "e1rm_lb": 186.7,
+      "source_sets": "90x12, 140x10, 140x10",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "overhead_triceps_extension",
+      "exercise": "OH Tricep Ext (DB)",
+      "weight_lb": 42.5,
+      "reps": 8,
+      "date": "2026-06-26",
+      "workout": "Upper 2: Raise hell 👹",
+      "e1rm_lb": 53.8,
+      "source_sets": "30x15, 42.5x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "ez_bar_or_db_curl",
+      "exercise": "Lazy Man Cable Curl",
+      "weight_lb": 30,
+      "reps": 13,
+      "date": "2026-07-21",
+      "workout": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "e1rm_lb": 43.0,
+      "source_sets": "30x13, 30x9, 30x10",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "lateral_raise",
+      "exercise": "SA behind the back lateral raise",
+      "weight_lb": 22.5,
+      "reps": 8,
+      "date": "2026-08-18",
+      "workout": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "e1rm_lb": 28.5,
+      "source_sets": "22.5x8, 22.5x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "leg_curl",
+      "exercise": "Lying Hamstring Curl",
+      "weight_lb": 90,
+      "reps": 4,
+      "date": "2026-08-20",
+      "workout": "Lower 2: A Bridge Too Far 🌉",
+      "e1rm_lb": 102.0,
+      "source_sets": "70x8, 70x15, 90x4, 80x5",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "incline_db_bench",
+      "exercise": "Incline DB Press (60 degree)",
+      "weight_lb": 35,
+      "reps": 9,
+      "date": "2026-09-01",
+      "workout": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "e1rm_lb": 45.5,
+      "source_sets": "35x9, 35x7",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "single_leg_rdl",
+      "exercise": "Single Leg RDL",
+      "weight_lb": 35,
+      "reps": 8,
+      "date": "2026-09-03",
+      "workout": "Lower 2: A Bridge Too Far 🌉",
+      "e1rm_lb": 44.3,
+      "source_sets": "30x8, 35x8",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "overhead_press",
+      "exercise": "Barbell Overhead Press",
+      "weight_lb": 65,
+      "reps": 7,
+      "date": "2026-09-11",
+      "workout": "Upper 2: Sup Dog 👋🏽",
+      "e1rm_lb": 80.2,
+      "source_sets": "65x7, 65x4",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "barbell_bench_press",
+      "exercise": "Chest Press Machine",
+      "weight_lb": 55,
+      "reps": 8,
+      "date": "2026-09-25",
+      "workout": "Upper 2: Pull over🚨",
+      "e1rm_lb": 69.7,
+      "source_sets": "55x5, 55x8, 55x8",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "overhead_press",
+      "exercise": "Shoulder press machine",
+      "weight_lb": 45,
+      "reps": 6,
+      "date": "2026-09-25",
+      "workout": "Upper 2: Pull over🚨",
+      "e1rm_lb": 54.0,
+      "source_sets": "40x8, 45x6, 45x4",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "rear_delt_fly",
+      "exercise": "Rear Delt Cable Fly (+SA Version)",
+      "weight_lb": 40,
+      "reps": 12,
+      "date": "2026-10-13",
+      "workout": "Upper 1: Delta force 🪖",
+      "e1rm_lb": 56.0,
+      "source_sets": "40x12, 40x7, 40x12",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "ez_bar_or_db_curl",
+      "exercise": "Cable curls",
+      "weight_lb": 33,
+      "reps": 8,
+      "date": "2026-10-20",
+      "workout": "Upper 1: Delta force 🪖",
+      "e1rm_lb": 41.8,
+      "source_sets": "33x8, 33x8",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "chinup_or_lat_pulldown",
+      "exercise": "Close Grip Pulldown",
+      "weight_lb": 85,
+      "reps": 10,
+      "date": "2026-10-23",
+      "workout": "Upper 2: Pull over🚨",
+      "e1rm_lb": 113.3,
+      "source_sets": "85x8, 85x10, 85x10",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "ez_bar_or_db_curl",
+      "exercise": "Incline DB Curls",
+      "weight_lb": 24,
+      "reps": 15,
+      "date": "2026-11-10",
+      "workout": "Upper 1: Delta force 🪖",
+      "e1rm_lb": 36.0,
+      "source_sets": "10x5, 24x15",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "standing_calf_raise",
+      "exercise": "Standing Calf Raise Machine",
+      "weight_lb": 180,
+      "reps": 21,
+      "date": "2026-11-16",
+      "workout": "Lower 1: No free lunge 💵",
+      "e1rm_lb": 306.0,
+      "source_sets": "180x21",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "seated_calf_raise",
+      "exercise": "Calf Raise (leg press)",
+      "weight_lb": 225,
+      "reps": 21,
+      "date": "2026-11-19",
+      "workout": "Lower 2: Hot off the leg press 📰",
+      "e1rm_lb": 382.5,
+      "source_sets": "225x20, 225x21",
+      "source": "trainheroic_import",
+      "role": "related_variation"
+    },
+    {
+      "program_key": "leg_press",
+      "exercise": "Leg Press (glutes)",
+      "weight_lb": 320,
+      "reps": 12,
+      "date": "2026-11-19",
+      "workout": "Lower 2: Hot off the leg press 📰",
+      "e1rm_lb": 448.0,
+      "source_sets": "180x15, 320x10, 320x12",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "hip_thrust",
+      "exercise": "BB Hip Thrust",
+      "weight_lb": 270,
+      "reps": 10,
+      "date": "2026-11-26",
+      "workout": "Lower 2: Hot off the leg press 📰",
+      "e1rm_lb": 360.0,
+      "source_sets": "180x30, 180x30, 270x10",
+      "source": "trainheroic_import"
+    },
+    {
+      "program_key": "leg_curl",
+      "exercise": "SL Seated Ham Curl",
+      "weight_lb": 45,
+      "reps": 5,
+      "date": "2026-11-26",
+      "workout": "Lower 2: Hot off the leg press 📰",
+      "e1rm_lb": 52.5,
+      "source_sets": "25x8, 40x5, 45x5",
+      "source": "trainheroic_import"
+    }
+  ],
+  "completed_workouts": [
+    {
+      "date": "2026-09-01",
+      "session_name": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-01.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 4,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "Assisted Pull-ups",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Pec Deck Fly",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Alternating DB Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "session_name": "Lower 2: A Bridge Too Far 🌉",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-03.md",
+      "exercises": [
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 3,
+              "weight_lb": 270,
+              "unit": "lb",
+              "reps": 24
+            }
+          ]
+        },
+        {
+          "name": "Step back bulgarians",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 6
+            }
+          ],
+          "notes": "Knees started to hurt bad"
+        },
+        {
+          "name": "Lying Hamstring Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 60,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 60,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Adductor Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Roman chair knee raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Single Leg RDL",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "session_name": "Upper 2: Sup Dog 👋🏽",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-04.md",
+      "exercises": [
+        {
+          "name": "Barbell Overhead Press",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 4
+            },
+            {
+              "set": 3,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 3
+            },
+            {
+              "set": 4,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Supinated Pulldown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 105,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 110,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "DB Hammer Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Overhead cable tricep extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "session_name": "Lower 1: Bread n' Butter 🍞🧈",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-07.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 95,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 135,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (adductor)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Smith machine side bend",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "session_name": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-08.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 4
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Assisted Pull-ups",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Pec Deck Fly",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 20
+            }
+          ],
+          "notes": "Double arms wth pinkies up"
+        },
+        {
+          "name": "Lazy Man Cable Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "session_name": "Lower 2: A Bridge Too Far 🌉",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-10.md",
+      "exercises": [
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Step back bulgarians",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Lying Hamstring Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 60,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 80,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Adductor Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Roman chair knee raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 8
+            }
+          ],
+          "notes": "Combo"
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "session_name": "Upper 2: Sup Dog 👋🏽",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-11.md",
+      "exercises": [
+        {
+          "name": "Barbell Overhead Press",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 4
+            }
+          ]
+        },
+        {
+          "name": "Supinated Pulldown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "rope hammer curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 14
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA OH Tricep Ext (cable)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Pull-Up",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "session_name": "Lower 1: Bread n' Butter 🍞🧈",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-14.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 2,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (adductor)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Smith machine side bend",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "session_name": "Upper 1: Lazy Susan 🤷🏻‍♀️",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-15.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 75,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 75,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Assisted Pull-ups",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Pec Deck Fly",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ],
+          "notes": "Bench rear delts"
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 17.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Alternating DB Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "session_name": "Lower 2: A Bridge Too Far 🌉",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-17.md",
+      "exercises": [
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Step back bulgarians",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Lying Hamstring Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "Adductor Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Roman chair knee raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "session_name": "Upper 2: Sup Dog 👋🏽",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-18.md",
+      "exercises": [
+        {
+          "name": "Barbell Overhead Press",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 2,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 4
+            }
+          ]
+        },
+        {
+          "name": "Supinated Pulldown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "DB Hammer Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": null,
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Overhead cable tricep extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-21.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 3,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 20
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 15
+            }
+          ],
+          "notes": "Leg press"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-22.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Cable curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-24.md",
+      "exercises": [
+        {
+          "name": "Seated Hamstring Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 80,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SL Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 50,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "SL Calf Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 50,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 50,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "session_name": "Upper 2: Pull over🚨",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-25.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 4
+            }
+          ],
+          "notes": "Machune"
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-28.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 95,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 12
+            }
+          ],
+          "notes": "Weird machine"
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 170,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 170,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Bulgarian Split Squat",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-09-29.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 8
+            }
+          ],
+          "notes": "Slow double"
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 25
+            },
+            {
+              "set": 2,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 25
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 3,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "name": "Reverse grip cable curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "DB Skullcrusher",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 25
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-01.md",
+      "exercises": [
+        {
+          "name": "Seated Hamstring Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 80,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SL Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 50,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "SL Calf Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 3,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "session_name": "Upper 2: Pull over🚨",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-02.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 11
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "OH Tricep Ext (DB)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-12.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 24
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 24
+            },
+            {
+              "set": 3,
+              "weight_lb": 95,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 16
+            }
+          ],
+          "notes": "Bent over"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-13.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 3,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 16
+            },
+            {
+              "set": 3,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 16
+            },
+            {
+              "set": 4,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 4
+            }
+          ]
+        },
+        {
+          "name": "Reverse grip cable curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 21,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 21,
+              "unit": "lb",
+              "reps": 30
+            }
+          ]
+        },
+        {
+          "name": "DB Skullcrusher",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-15.md",
+      "exercises": [
+        {
+          "name": "Seated Hamstring Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SL Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "SL Calf Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 50,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "session_name": "Upper 2: Pull over🚨",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-16.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 2
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Preacher curl machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 18
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "OH Tricep Ext (DB)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-19.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 3,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 170,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-20.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 33,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 33,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 11,
+              "unit": "lb",
+              "reps": 3
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Cable curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 33,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 33,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 27,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 27,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 3,
+              "weight_lb": 27,
+              "unit": "lb",
+              "reps": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-22.md",
+      "exercises": [
+        {
+          "name": "Seated Hamstring Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 225,
+              "unit": "lb",
+              "reps": 10
+            }
+          ],
+          "notes": "10’s"
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 18
+            }
+          ],
+          "notes": "6 double 6 single\n6 singles, 12 double"
+        },
+        {
+          "name": "SL Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SL Calf Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 17
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 20
+            }
+          ],
+          "notes": "Double"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "session_name": "Upper 2: Pull over🚨",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-23.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "Close Grip Pulldown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "rope hammer curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 31,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 31,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "DB Pullovers",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 2,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 275,
+              "unit": "lb",
+              "reps": 10,
+              "possible_typo": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-26.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Abduction Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 17
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 120,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 3,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 170,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-27.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 3
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Cable Fly (+SA Version)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 7.5,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Reverse grip cable curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "DB Skullcrusher",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-29.md",
+      "exercises": [
+        {
+          "name": "Seated Hamstring Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "BB Glute Bridge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        },
+        {
+          "name": "SL Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SL Calf Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 22
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 22
+            }
+          ],
+          "notes": "On leg press"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "session_name": "Upper 2: Pull over🚨",
+      "source": "trainheroic_import",
+      "log": "logs/2026-10-30.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Chest Press Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            }
+          ],
+          "notes": "Drop set"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-02.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 155,
+              "unit": "lb",
+              "reps": 3
+            },
+            {
+              "set": 3,
+              "weight_lb": 135,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-03.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 3,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 2
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 7
+            }
+          ],
+          "notes": "Pull ups"
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Incline DB Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 31,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 31,
+              "unit": "lb",
+              "reps": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-05.md",
+      "exercises": [
+        {
+          "name": "SL Seated Ham Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "BB Hip Thrust",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 230,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 230,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Alternating Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Calf Raise (leg press)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 18
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-09.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 95,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 11
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-10.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 4
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Incline DB Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 2,
+              "weight_lb": 24,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 24,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 24,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-12.md",
+      "exercises": [
+        {
+          "name": "SL Seated Ham Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 3,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "BB Hip Thrust",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 205,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Alternating Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Calf Raise (leg press)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 25
+            },
+            {
+              "set": 2,
+              "weight_lb": 205,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "session_name": "Upper 2: 🔨 Hammer time",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-13.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 20,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 15
+            }
+          ]
+        },
+        {
+          "name": "DB Hammer Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12,
+              "unit": "lb",
+              "reps": 27.5
+            },
+            {
+              "set": 3,
+              "weight_lb": 12,
+              "unit": "lb",
+              "reps": 27.5
+            }
+          ]
+        },
+        {
+          "name": "SA OH Tricep Ext (cable)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 3,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-16",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-16.md",
+      "exercises": [
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-17",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-17.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        },
+        {
+          "name": "Incline DB Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 13
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 3,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-19.md",
+      "exercises": [
+        {
+          "name": "SL Seated Ham Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "BB Hip Thrust",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 320,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 3,
+              "weight_lb": 320,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Alternating Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 55,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Calf Raise (leg press)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 225,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 225,
+              "unit": "lb",
+              "reps": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "session_name": "Upper 2: 🔨 Hammer time",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-20.md",
+      "exercises": [
+        {
+          "name": "Shoulder press machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Close Grip Pulldown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 78,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 85,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "SA behind the back lateral raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            }
+          ],
+          "notes": "Lay back raise"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "session_name": "Lower 1: No free lunge 💵",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-23.md",
+      "exercises": [
+        {
+          "name": "RDL (Romanian Deadlift)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 135,
+              "unit": "lb",
+              "reps": 6
+            },
+            {
+              "set": 3,
+              "weight_lb": 35,
+              "unit": "lb",
+              "reps": 30
+            }
+          ]
+        },
+        {
+          "name": "FFE Reverse Lunge",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 65,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 115,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Standing Calf Raise Machine",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 150,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 0,
+              "unit": "lb",
+              "reps": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "session_name": "Upper 1: Delta force 🪖",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-24.md",
+      "exercises": [
+        {
+          "name": "Incline DB Press (60 degree)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 10
+            },
+            {
+              "set": 2,
+              "weight_lb": 30,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA Lat Pulldown (seated)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 39,
+              "unit": "lb",
+              "reps": 7
+            },
+            {
+              "set": 2,
+              "weight_lb": 39,
+              "unit": "lb",
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "name": "Chest supported row machine (Elbows flared)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 70,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "SA Cable Y Raise",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 10,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 9,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Incline DB Curls",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 12.5,
+              "unit": "lb",
+              "reps": 13
+            },
+            {
+              "set": 2,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 9
+            },
+            {
+              "set": 3,
+              "weight_lb": 15,
+              "unit": "lb",
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 27.5,
+              "unit": "lb",
+              "reps": 15
+            },
+            {
+              "set": 2,
+              "weight_lb": 31,
+              "unit": "lb",
+              "reps": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "session_name": "Lower 2: Hot off the leg press 📰",
+      "source": "trainheroic_import",
+      "log": "logs/2026-11-26.md",
+      "exercises": [
+        {
+          "name": "SL Seated Ham Curl",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 25,
+              "unit": "lb",
+              "reps": 8
+            },
+            {
+              "set": 2,
+              "weight_lb": 40,
+              "unit": "lb",
+              "reps": 5
+            },
+            {
+              "set": 3,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 5
+            }
+          ]
+        },
+        {
+          "name": "BB Hip Thrust",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 2,
+              "weight_lb": 180,
+              "unit": "lb",
+              "reps": 30
+            },
+            {
+              "set": 3,
+              "weight_lb": 270,
+              "unit": "lb",
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "name": "Leg Press (glutes)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 90,
+              "unit": "lb",
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "name": "Alternating Leg Extension",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 100,
+              "unit": "lb",
+              "reps": 12
+            },
+            {
+              "set": 2,
+              "weight_lb": 130,
+              "unit": "lb",
+              "reps": 7
+            }
+          ]
+        },
+        {
+          "name": "Calf Raise (leg press)",
+          "sets": [
+            {
+              "set": 1,
+              "weight_lb": 45,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 2,
+              "weight_lb": 140,
+              "unit": "lb",
+              "reps": 20
+            },
+            {
+              "set": 3,
+              "weight_lb": 160,
+              "unit": "lb",
+              "reps": 22
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "weekly_reviews": [],
   "missed_sessions": [],
-  "notes": "Working weights start empty. After each session, log actual loads, reps, and RPE, then update the matching working_weights entry. Add a personal_records object when a reported set is a best-to-date for that lift and rep range. Do not invent loads. preferred_start_date is Monday, November 30, 2026 in America/Phoenix so the weekly calendar lines up. Split: Mon quad squat, Tue upper push, Wed posterior hinge, Thu back/pull, Fri full lower and core."
+  "notes": "Working weights start empty. After each session, log actual loads, reps, and RPE, then update the matching working_weights entry. Add a personal_records object when a reported set is a best-to-date for that lift and rep range. Do not invent loads. preferred_start_date is Monday, November 30, 2026 in America/Phoenix so the weekly calendar lines up. Split: Mon quad squat, Tue upper push, Wed posterior hinge, Thu back/pull, Fri full lower and core. TrainHeroic history imported 2026-11-25 (729 logged sessions, 2022-01-03 to 2026-11-26). Use imported working weights as Week 1 starting references and adjust to the prescribed RPE.",
+  "trainheroic_import": {
+    "imported_on": "2026-11-25",
+    "timezone": "America/Phoenix",
+    "history_json": "history/trainheroic_history.json",
+    "history_csv": "history/trainheroic_history.csv",
+    "recent_logs_since": "2026-09-01",
+    "sessions_imported": 729,
+    "exercise_entries_imported": 4120,
+    "sets_imported": 10032,
+    "possible_typos_flagged": 6,
+    "date_range": {
+      "first": "2022-01-03",
+      "last": "2026-11-26"
+    },
+    "unique_dates": 722,
+    "note": "Working weights and PRs come from logged TrainHeroic sets only. Lifts with no history were left empty. A more recent but much lighter session is noted and not used as the working weight."
+  }
 }

@@ -24,7 +24,7 @@ Each lifting day follows the same TrainHeroic-style layout:
 
 **Unilateral work:** Do both sides. Start with the weaker side if you know it.
 
-Weights are left open on purpose until Week 1 working weights are logged. Pick the load that matches the written RPE/RIR with clean technique.
+Suggested starting loads from Jennifer's TrainHeroic history are stored in `progress.json`. Use them as Week 1 references and still pick the load that matches the written RPE/RIR with clean technique. Lifts with no recent history (or only a close variation) should be re-established in Week 1 rather than converted.
 
 ---
 

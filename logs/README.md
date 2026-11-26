@@ -107,3 +107,12 @@ Same table format. For supersets, label the pairing (for example C1 / C2) and lo
 - If two sessions somehow share a date (for example a late makeup), keep one file and add a second session heading rather than creating a second file.
 - If you correct a number later the same day, edit the file and also correct `progress.json`. Do not silently leave them out of sync.
 - Missed lifting days still get a short file: session name, “missed,” and the reason (travel, illness, time). That keeps the weekly review honest.
+
+## Historical TrainHeroic logs
+
+Sessions imported from Jennifer's TrainHeroic export use the same `logs/YYYY-MM-DD.md` naming and a filled-in work-set table.
+
+- Markdown logs are written for **logged sessions from 2026-09-01 onward** (her recent training block).
+- The full history (2022-01-03 to 2026-11-26, 729 logged sessions) is in `../history/trainheroic_history.json` and `../history/trainheroic_history.csv`.
+- Imported files are labeled `Source: TrainHeroic historical export`. They include only exercises that were actually logged (sets, reps, and/or weight). Training notes are kept; personal profile and message data are not.
+- If a later session in this program falls on one of those dates, add a second session heading in the same file rather than replacing the imported history.
