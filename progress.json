@@ -1,0 +1,251 @@
+{
+  "program_name": "Upper / Lower / Back Progressive Overload",
+  "source_inspiration": "TrainHeroic-style 5-day strength and hypertrophy mesocycle (Gorrell BUILT, Lezama 5D, Lemke RIR-wave blocks)",
+  "athlete": "Jennifer Nixon",
+  "timezone": "America/Phoenix",
+  "mesocycle": 1,
+  "mesocycle_length_weeks": 4,
+  "status": "ready_to_start",
+  "start_date": null,
+  "preferred_start_date": "2026-11-30",
+  "current_week": 1,
+  "current_day": "monday",
+  "last_completed_date": null,
+  "schedule": {
+    "monday": {
+      "id": "lower_quad",
+      "name": "Lower Body — Quad-Focused Strength"
+    },
+    "tuesday": {
+      "id": "upper_push",
+      "name": "Upper Body — Push, Shoulders & Arms"
+    },
+    "wednesday": {
+      "id": "lower_posterior",
+      "name": "Lower Body — Posterior Chain / Glutes & Hamstrings"
+    },
+    "thursday": {
+      "id": "back_pull",
+      "name": "Back & Pull Focus"
+    },
+    "friday": {
+      "id": "lower_full_core",
+      "name": "Lower Body — Full Lower & Core"
+    },
+    "saturday": {
+      "id": "optional_cardio",
+      "name": "Optional Cardio & Conditioning"
+    },
+    "sunday": {
+      "id": "rest_mobility_review",
+      "name": "Rest / Mobility & Weekly Review"
+    }
+  },
+  "working_weights": {
+    "back_squat": {
+      "name": "Back Squat",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Establish in Week 1 Monday primary. Note if swapped to goblet, hack, or safety-bar squat."
+    },
+    "leg_press": {
+      "name": "Leg Press",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Monday accessory. Machine load as written on the stack or sled."
+    },
+    "leg_extension": {
+      "name": "Leg Extension",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Monday accessory."
+    },
+    "leg_curl": {
+      "name": "Seated or Lying Leg Curl",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Used Monday (lighter) and Wednesday (main hamstring accessory). Note seated vs lying."
+    },
+    "standing_calf_raise": {
+      "name": "Standing Calf Raise",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Monday finisher."
+    },
+    "barbell_bench_press": {
+      "name": "Barbell Bench Press",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Establish in Week 1 Tuesday primary."
+    },
+    "overhead_press": {
+      "name": "Dumbbell or Barbell Overhead Press",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Tuesday secondary. Note DB vs barbell, and if DB, load per hand."
+    },
+    "incline_db_bench": {
+      "name": "Incline Dumbbell or Machine Press",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Tuesday accessory. Load per dumbbell if applicable."
+    },
+    "lateral_raise": {
+      "name": "Dumbbell Lateral Raise",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Tuesday accessory. Load per dumbbell."
+    },
+    "overhead_triceps_extension": {
+      "name": "Overhead Triceps Extension or Skull Crusher",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Tuesday accessory."
+    },
+    "triceps_pushdown": {
+      "name": "Triceps Pushdown",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Tuesday finisher."
+    },
+    "romanian_deadlift": {
+      "name": "Romanian Deadlift",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Establish in Week 1 Wednesday primary. Note if swapped to trap-bar RDL or deadlift."
+    },
+    "hip_thrust": {
+      "name": "Barbell or Machine Hip Thrust",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Wednesday secondary."
+    },
+    "step_up_or_reverse_lunge": {
+      "name": "Step-Up or Reverse Lunge",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Wednesday accessory. Load per side, and which variation."
+    },
+    "back_extension": {
+      "name": "45-Degree Back Extension",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Wednesday accessory and Friday hinge-balance option. Bodyweight or added load."
+    },
+    "barbell_or_chest_supported_row": {
+      "name": "Barbell or Chest-Supported T-Bar Row",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Establish in Week 1 Thursday primary. Note which variation."
+    },
+    "chinup_or_lat_pulldown": {
+      "name": "Weighted Chin-Up, Pull-Up, or Lat Pulldown",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Thursday secondary. Use BW, BW plus added load, or pulldown stack. Note which variation."
+    },
+    "single_arm_row": {
+      "name": "Single-Arm Dumbbell or Cable Row",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Thursday accessory. Load per side."
+    },
+    "straight_arm_lat_pulldown": {
+      "name": "Straight-Arm Lat Pulldown or Dumbbell Pullover",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Thursday accessory."
+    },
+    "rear_delt_fly": {
+      "name": "Face Pull or Chest-Supported Rear Delt Fly",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Thursday accessory."
+    },
+    "ez_bar_or_db_curl": {
+      "name": "EZ-Bar, Dumbbell, or Hammer Curl",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Thursday accessory."
+    },
+    "front_squat": {
+      "name": "Front Squat or Goblet Squat",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Establish in Week 1 Friday primary. Note front squat vs goblet or safety-bar swap."
+    },
+    "bulgarian_split_squat": {
+      "name": "Bulgarian Split Squat",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Friday secondary. Load per hand or total, and which hold."
+    },
+    "single_leg_rdl": {
+      "name": "Single-Leg RDL or Cable Pull-Through",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Friday hinge-balance accessory. Load per side if unilateral."
+    },
+    "seated_calf_raise": {
+      "name": "Seated Calf Raise",
+      "weight_lb": null,
+      "reps": null,
+      "rpe": null,
+      "unit": "lb",
+      "notes": "Friday accessory."
+    }
+  },
+  "personal_records": [],
+  "completed_workouts": [],
+  "weekly_reviews": [],
+  "missed_sessions": [],
+  "notes": "Working weights start empty. After each session, log actual loads, reps, and RPE, then update the matching working_weights entry. Add a personal_records object when a reported set is a best-to-date for that lift and rep range. Do not invent loads. preferred_start_date is Monday, November 30, 2026 in America/Phoenix so the weekly calendar lines up. Split: Mon quad squat, Tue upper push, Wed posterior hinge, Thu back/pull, Fri full lower and core."
+}
